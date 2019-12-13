@@ -90,6 +90,7 @@
     <modules>
         <module>dubbo-springboot-sample-api</module>
         <module>dubbo-springboot-sample-server</module>
+        <module>dubbo-springboot-sample-customer</module>
     </modules>
 
 

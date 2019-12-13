@@ -14,6 +14,6 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
 
     public User qryUserById(Integer id) {
-        return new User(id);
+        return new User(id,String.valueOf(id));
     }
 }

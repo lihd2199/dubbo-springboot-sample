@@ -13,11 +13,12 @@ import javax.annotation.Resource;
  * @author: li_hd
  * @create: 2019-12-13 11:30
  **/
-@Service(version = "${demo.service.version}")
+@Service
 public class UserController implements UserApi {
 
     @Resource
     private UserService userService;
+
 
     public User qryUserById(Integer id) {
             return userService.qryUserById(id);
