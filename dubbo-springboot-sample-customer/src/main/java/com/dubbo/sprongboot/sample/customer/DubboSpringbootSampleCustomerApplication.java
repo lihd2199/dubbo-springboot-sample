@@ -1,16 +1,13 @@
-package com.dubbo.springboot.sample.server;
-
+package com.dubbo.sprongboot.sample.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DubboSpringbootSampleServerApplication {
+public class DubboSpringbootSampleCustomerApplication {
 
     public static void main(String[] args) {
-
-        SpringApplication.run(DubboSpringbootSampleServerApplication.class, args);
-
+        SpringApplication.run(DubboSpringbootSampleCustomerApplication.class, args);
     }
 
 }
